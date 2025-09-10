@@ -50,9 +50,9 @@ export default function Home() {
       const navLinks = document.querySelectorAll('a[href^="#"]');
       
       navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', (e) => {
           e.preventDefault();
-          const targetId = this.getAttribute('href');
+          const targetId = link.getAttribute('href');
           const targetElement = document.querySelector(targetId);
           
           if (targetElement) {
