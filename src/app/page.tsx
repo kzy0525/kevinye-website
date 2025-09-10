@@ -130,7 +130,7 @@ export default function Home() {
             <a href="#projects" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Projects</a>
             <a href="#skills" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Skills</a>
             <a href="#contact" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Contact</a>
-            <a href="#cv" className="block px-3 py-2 text-base font-medium bg-accent text-white rounded-md">CV</a>
+            <a href="https://drive.google.com/file/d/1jgSRvl-QT3qONrUZLdgZ3Ot_Lu3Du10y/view?usp=sharing" target="_blank" className="block px-3 py-2 text-base font-medium bg-accent text-white rounded-md">CV</a>
           </div>
         </div>
       </nav>

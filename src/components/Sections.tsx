@@ -277,7 +277,7 @@ export default function Sections() {
               <i className="fab fa-github text-white text-2xl mb-2 group-hover:scale-110 transition-transform duration-200"></i>
               <span className="text-white text-sm font-medium">GitHub</span>
             </a>
-            <a href="#" className="flex flex-col items-center p-6 bg-slate-700 rounded-lg border border-slate-600 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-200 group">
+            <a href="https://drive.google.com/file/d/1jgSRvl-QT3qONrUZLdgZ3Ot_Lu3Du10y/view?usp=sharing" target="_blank" className="flex flex-col items-center p-6 bg-slate-700 rounded-lg border border-slate-600 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-200 group">
               <i className="fas fa-file-alt text-white text-2xl mb-2 group-hover:scale-110 transition-transform duration-200"></i>
               <span className="text-white text-sm font-medium">Resume</span>
             </a>
