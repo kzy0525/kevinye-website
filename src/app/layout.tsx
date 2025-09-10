@@ -17,6 +17,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Kevin Ye - Personal Website",
   description: "Computer Engineering Student at Queen's University",
+  icons: {
+    icon: '/favicon.ico?v=2',
+    shortcut: '/favicon.ico?v=2',
+    apple: '/favicon.ico?v=2',
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +33,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+        <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon.ico?v=2" />
       </head>
       <body
         className={`${jetbrainsMono.variable} ${inter.variable} antialiased font-mono`}
