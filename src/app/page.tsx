@@ -168,7 +168,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold text-blue-400 mb-8 text-center">About Me</h2>
                 <div className="prose prose-lg max-w-none text-slate-300">
                   <p className="text-lg leading-relaxed">
-                    I'm from Vancouver, BC and I am currently a Computer Engineering student at Queen's University. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
+                    I&apos;m from Vancouver, BC and I am currently a Computer Engineering student at Queen&apos;s University. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
                   </p>
                 </div>
               </div>
@@ -179,7 +179,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-slate-300 text-lg leading-relaxed mb-6">
-                      Here's a short video of 9 year old me at my weekly robotics class, coding a lego mindstorms robot using EV3 code. Up until university, I was super embarrassed by these videos and desperately tried to hide them, but now I find it funny and like to think of those classes as a start to my interest in coding. 
+                      Here&apos;s a short video of 9 year old me at my weekly robotics class, coding a lego mindstorms robot using EV3 code. Up until university, I was super embarrassed by these videos and desperately tried to hide them, but now I find it funny and like to think of those classes as a start to my interest in coding. 
                     </p>
                   </div>
                   <div className="bg-slate-700 rounded-lg overflow-hidden">
@@ -187,7 +187,7 @@ export default function Home() {
                       <source src="/images/robokids.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
-                    <p className="text-white text-lg text-center p-4">"Today I built a car" 👍</p>
+                    <p className="text-white text-lg text-center p-4">&quot;Today I built a car&quot; 👍</p>
                   </div>
                 </div>
               </div>
@@ -207,7 +207,7 @@ export default function Home() {
               </div>
               <div className="group">
                 <Image src="/images/violin.jpeg" alt="Violin" width={300} height={300} className="aspect-square bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden hover:scale-105 transition-transform duration-300 border border-slate-600 object-cover" />
-                <p className="text-white text-sm text-center mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">I've played violin for 10+ years</p>
+                <p className="text-white text-sm text-center mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">I&apos;ve played violin for 10+ years</p>
               </div>
             </div>
           </div>

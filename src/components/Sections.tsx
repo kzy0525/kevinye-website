@@ -19,7 +19,7 @@ export default function Sections() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-blue-400">Technical Consultant</h3>
-                  <p className="text-slate-300"><a href="https://www.queensstartupconsulting.com/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen's Startup Consulting</a></p>
+                  <p className="text-slate-300"><a href="https://www.queensstartupconsulting.com/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Startup Consulting</a></p>
                 </div>
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
@@ -34,7 +34,7 @@ export default function Sections() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-blue-400">UI/UX Designer</h3>
-                  <p className="text-slate-300"><a href="https://www.qtma.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen's Tech and Media Association</a></p>
+                  <p className="text-slate-300"><a href="https://www.qtma.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Tech and Media Association</a></p>
                 </div>
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
@@ -48,11 +48,11 @@ export default function Sections() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-blue-400">AI/ML Researcher</h3>
-                  <p className="text-slate-300"><a href="https://www.queenshyperloop.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen's Hyperloop Design Team</a></p>
+                  <p className="text-slate-300"><a href="https://www.queenshyperloop.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Hyperloop Design Team</a></p>
                 </div>
               </div>
               <p className="text-white text-sm mb-2">September 2024 — April 2025</p>
-              <p className="text-slate-300">• Developed an AI/ML-driven geospatial analysis pipeline in Python, integrating GIS-MCDA to use Dijkstra's algorithm to find optimal routes for possible Hyperloop networks across 20+ major Canadian cities</p>
+              <p className="text-slate-300">• Developed an AI/ML-driven geospatial analysis pipeline in Python, integrating GIS-MCDA to use Dijkstra&apos;s algorithm to find optimal routes for possible Hyperloop networks across 20+ major Canadian cities</p>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">June 2024</p>
                 <p className="text-white text-sm mb-2">Frontend</p>
-                <p className="text-slate-300 text-sm mb-4">New website for inQUbate, a student-run, startup incubator club of Queen's University</p>
+                <p className="text-slate-300 text-sm mb-4">New website for inQUbate, a student-run, startup incubator club of Queen&apos;s University</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">JavaScript</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">CSS</span>
