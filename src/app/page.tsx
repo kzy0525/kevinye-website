@@ -170,7 +170,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold text-blue-400 mb-8 text-center">About Me</h2>
                 <div className="prose prose-lg max-w-none text-slate-300">
                   <p className="text-lg leading-relaxed">
-                    I&apos;m from Vancouver, BC and I am currently a student at Queen's University studying Computer Engineering with a specialization in artificial intelligence, and a certificiate in business. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
+                    I&apos;m from Vancouver, BC and I am currently a student at Queen&apos;s University studying Computer Engineering with a specialization in artificial intelligence, and a certificiate in business. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
                   </p>
                 </div>
               </div>

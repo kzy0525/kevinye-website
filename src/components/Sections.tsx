@@ -24,7 +24,8 @@ export default function Sections() {
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
               <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges, leveraging coding and analytical skills to drive product optimization</p>
-              <p className="text-slate-300">• Assisted in building a scalable API for a startup that web scraped pricing data from various e-commerce platforms</p>
+              <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to scrape secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
+              <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making</p>
             </div>
             
             <div className="border-l-4 border-accent pl-6">
@@ -33,12 +34,13 @@ export default function Sections() {
                   <Image src="/images/qtma.jpg" alt="QTMA" width={48} height={48} className="w-full h-full object-cover rounded" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-blue-400">UI/UX Designer</h3>
+                  <h3 className="text-xl font-semibold text-blue-400">UI/UX Designer, Software Developer</h3>
                   <p className="text-slate-300"><a href="https://www.qtma.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Tech and Media Association</a></p>
                 </div>
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
-              <p className="text-slate-300">• Designed wireframes, prototypes, and high-fidelity mockups on Figma to communicate design ideas and drive consensus across the team of product managers, code developers, and business analysts</p>
+              <p className="text-slate-300">• Conducting market research and designing user-interface prototypes for an AI-integrated language learning app</p>
+              <p className="text-slate-300">•	Developing a mobile app that uses AI to generate stories and podcasts alongside other basic learning strategies, and allow real-time conversational practice based on user preference and level</p>
             </div>
             
             <div className="border-l-4 border-accent pl-6">
