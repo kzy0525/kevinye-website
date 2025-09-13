@@ -130,7 +130,7 @@ export default function Home() {
             <a href="#projects" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Projects</a>
             <a href="#skills" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Skills</a>
             <a href="#contact" className="mobile-nav-link block px-3 py-2 text-lg font-medium text-slate-300 hover:text-white">Contact</a>
-            <a href="https://drive.google.com/file/d/1jgSRvl-QT3qONrUZLdgZ3Ot_Lu3Du10y/view?usp=sharing" target="_blank" className="block px-3 py-2 text-base font-medium bg-accent text-white rounded-md">CV</a>
+            <a href="https://drive.google.com/file/d/1ZO2XXOGIRUw_BVbhdQ-n3vHHjWqGe8i5/view?usp=sharing" target="_blank" className="block px-3 py-2 text-base font-medium bg-accent text-white rounded-md">CV</a>
           </div>
         </div>
       </nav>
@@ -170,7 +170,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold text-blue-400 mb-8 text-center">About Me</h2>
                 <div className="prose prose-lg max-w-none text-slate-300">
                   <p className="text-lg leading-relaxed">
-                    I&apos;m from Vancouver, BC and I am currently a Computer Engineering student at Queen&apos;s University. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
+                    I&apos;m from Vancouver, BC and I am currently a student at Queen's University studying Computer Engineering with a specialization in artificial intelligence, and a certificiate in business. I am interested in software engineering, artificial intelligence, data analytics, and UX design. As I continue to learn and gain experience, this site will be updated with new projects and experiences, along with my skills, resume, and contact information. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. Feel free to reach out at ye.kevin@queensu.ca!
                   </p>
                 </div>
               </div>
