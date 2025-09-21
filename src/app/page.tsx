@@ -199,15 +199,15 @@ export default function Home() {
           {/* Photo Gallery (separate from flip card) */}
           <div className="max-w-5xl mx-auto mt-12">
             <div className="grid grid-cols-3 gap-6">
-              <div className="group">
+              <div className="group flex flex-col items-center">
                 <Image src="/images/tofu.jpeg" alt="Tofu" width={300} height={300} className="aspect-square bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden hover:scale-105 transition-transform duration-300 border border-slate-600 object-cover" />
                 <p className="text-white text-sm text-center mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">My chubby Great Pyrenees named Tofu!</p>
               </div>
-              <div className="group">
+              <div className="group flex flex-col items-center">
                 <Image src="/images/beach.jpeg" alt="Beach" width={300} height={300} className="aspect-square bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden hover:scale-105 transition-transform duration-300 border border-slate-600 object-cover" />
                 <p className="text-white text-sm text-center mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">I love taking pictures and EATING LOTS when I travel</p>
               </div>
-              <div className="group">
+              <div className="group flex flex-col items-center">
                 <Image src="/images/violin.jpeg" alt="Violin" width={300} height={300} className="aspect-square bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden hover:scale-105 transition-transform duration-300 border border-slate-600 object-cover" />
                 <p className="text-white text-sm text-center mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">I&apos;ve played violin for 10+ years</p>
               </div>

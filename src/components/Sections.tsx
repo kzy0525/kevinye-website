@@ -23,7 +23,7 @@ export default function Sections() {
                 </div>
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
-              <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges, leveraging coding and analytical skills to drive product optimization</p>
+              <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges</p>
               <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to scrape secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
               <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making</p>
             </div>
@@ -224,9 +224,9 @@ export default function Sections() {
             <div className="bg-slate-700 p-6 rounded-lg shadow-sm border border-slate-600 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-300">
               <h3 className="text-xl font-semibold text-blue-400 mb-4">Data Analytics</h3>
               <div className="space-y-2">
+                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">SQL</div>
                 <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">Power BI</div>
                 <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">Tableau</div>
-                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">SQL</div>
               </div>
             </div>
             <div className="bg-slate-700 p-6 rounded-lg shadow-sm border border-slate-600 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-300">
@@ -245,12 +245,12 @@ export default function Sections() {
                 <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">React</div>
               </div>
             </div>
-            <div className="bg-slate-700 p-6 rounded-lg shadow-sm border border-slate-600 hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-blue-400 mb-4">Engineering Tools</h3>
+            <div className="bg-slate-700 p-6 rounded-lg shadow-sm border border-slate-600 hover:scale-105 hover:border-white hover:shadow-white/30 transition-all duration-300">
+              <h3 className="text-xl font-semibold text-white mb-4">Special Talents</h3>
               <div className="space-y-2">
-                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">SolidWorks</div>
-                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">Prusa Slicer</div>
-                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-blue-300 border border-blue-500">Quartus</div>
+                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-white border border-white">Badminton</div>
+                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-white border border-white">Napping for hours</div>
+                <div className="bg-slate-600 px-3 py-2 rounded text-sm text-white border border-white">Finding new places to eat</div>
               </div>
             </div>
           </div>
