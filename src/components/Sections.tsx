@@ -12,6 +12,21 @@ export default function Sections() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-blue-400 mb-12 text-center">Experience</h2>
           <div className="space-y-8">
+
+          <div className="border-l-4 border-accent pl-6">
+              <div className="flex items-center mb-2">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 border border-blue-500 overflow-hidden">
+                  <Image src="/images/bmo.png" alt="BMO" width={48} height={48} className="w-full h-full object-cover rounded" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-blue-400">Information Security Analyst</h3>
+                  <p className="text-slate-300"><a target="_blank" className="text-slate-300">Bank of Montreal</a></p>
+                </div>
+              </div>
+              <p className="text-white text-sm mb-2">January 2026 — Present</p>
+              <p className="text-slate-300">• Supporting new implementation of ArmorCode with Qualys, CrowdStrike, and Tenable, into BMO’s security workflow</p>
+            </div>
+
             <div className="border-l-4 border-accent pl-6">
               <div className="flex items-center mb-2">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 border border-blue-500 overflow-hidden">
@@ -24,8 +39,8 @@ export default function Sections() {
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
               <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges</p>
-              <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to scrape secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
-              <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making</p>
+              <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to source secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
+              <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making on 10,000+ companies</p>
             </div>
             
             <div className="border-l-4 border-accent pl-6">
@@ -34,13 +49,13 @@ export default function Sections() {
                   <Image src="/images/qtma.jpg" alt="QTMA" width={48} height={48} className="w-full h-full object-cover rounded" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-blue-400">UI/UX Designer, Software Developer</h3>
+                  <h3 className="text-xl font-semibold text-blue-400">Software Developer, UI/UX Designer</h3>
                   <p className="text-slate-300"><a href="https://www.qtma.ca/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Tech and Media Association</a></p>
                 </div>
               </div>
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
-              <p className="text-slate-300">• Conducting market research and designing user-interface prototypes for an AI-integrated language learning app</p>
-              <p className="text-slate-300">•	Developing a mobile app that uses AI to generate stories and podcasts alongside other basic learning strategies, and allow real-time conversational practice based on user preference and level</p>
+              <p className="text-slate-300">• Conducting market research and designing user-interface prototypes for bons.ai, an AI-integrated language learning app</p>
+              <p className="text-slate-300">•	Utilizing LLMs to create personalized and customizable learning strategies and lessons, immersive real-world applications, real-time conversational practice, and dynamic content generation based on past lesson results</p>
             </div>
             
             <div className="border-l-4 border-accent pl-6">
@@ -67,6 +82,24 @@ export default function Sections() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             <div className="bg-slate-700 rounded-lg shadow-sm overflow-hidden hover:shadow-md hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-300 border border-slate-600">
               <div className="h-48 bg-slate-600 flex items-center justify-center overflow-hidden">
+                <Image src="/images/bonsai.jpeg" alt="Bons.ai" width={300} height={192} className="w-full h-full object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-blue-400 mb-2">
+                  <a href="https://www.bonsaistudy.com/" target="_blank" className="text-blue-400 hover:underline transition-colors duration-200">Bons.ai</a>
+                </h3>
+                <p className="text-slate-400 text-sm mb-1">December 2025</p>
+                <p className="text-white text-sm mb-2">AI, Full Stack, UI/UX Design</p>
+                <p className="text-slate-300 text-sm mb-4">QTMA product team project which utilizes LLM&apos;s to create personalized and customizable learning strategies for language learning strategies and lessons. Allows for real-world application, conversational practice, and dynamic content generation based on past lesson results.</p>
+                <div className="flex space-x-2">
+                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">TypeScript</span>
+                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Go</span>
+                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+            <div className="bg-slate-700 rounded-lg shadow-sm overflow-hidden hover:shadow-md hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/30 transition-all duration-300 border border-slate-600">
+              <div className="h-48 bg-slate-600 flex items-center justify-center overflow-hidden">
                 <Image src="/images/nest.png" alt="Nest Project" width={300} height={192} className="w-full h-full object-cover" />
               </div>
               <div className="p-6">
@@ -75,7 +108,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">September 2025</p>
                 <p className="text-white text-sm mb-2">Full Stack</p>
-                <p className="text-slate-300 text-sm mb-4">Website that helps university students find clubs while streamlining the application process with both student-facing and club-facing interfaces</p>
+                <p className="text-slate-300 text-sm mb-4">Website that helps university students find clubs while streamlining the application process with both student-facing and club-facing interfaces.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">JavaScript</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">SQL</span>
@@ -92,7 +125,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">August 2025</p>
                 <p className="text-white text-sm mb-2">AI/ML, Backend</p>
-                <p className="text-slate-300 text-sm mb-4">Multi-task deep learning pipeline for pancreatic cancer detection using nnUNetv2 and 300+ 3D CT scans with 82% accuracy</p>
+                <p className="text-slate-300 text-sm mb-4">Multi-task deep learning pipeline for pancreatic cancer detection using nnUNetv2 and 300+ 3D CT scans with 82% accuracy.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Python</span>
                   <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">nnUNetv2</span>
@@ -110,7 +143,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">June 2025</p>
                 <p className="text-white text-sm mb-2">AI, Full Stack</p>
-                <p className="text-slate-300 text-sm mb-4">Personal project that allows users to search for any NYSE stock and returns the public sentiment about the stock by scraping Reddit threads with an NLP, as well as basic stock metrics on the dashboard</p>
+                <p className="text-slate-300 text-sm mb-4">Personal project that allows users to search for any NYSE stock and returns the public sentiment about the stock by scraping Reddit threads with an NLP, as well as basic stock metrics on the dashboard.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Python</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">HTML/CSS</span>
@@ -129,7 +162,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">January 2024</p>
                 <p className="text-white text-sm mb-2">ML, Embedded Systems, Full Stack</p>
-                <p className="text-slate-300 text-sm mb-4">Engineering project utilizing a YOLOV8 model for Machine Vision through Object Detection to create a live safety system for a Hyperloop pod with an arduino microcontroller</p>
+                <p className="text-slate-300 text-sm mb-4">Engineering project utilizing a YOLOV8 model for Machine Vision through Object Detection to create a live safety system for a Hyperloop pod with an arduino microcontroller.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Python</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">HTML/CSS</span>
@@ -148,7 +181,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">January 2025</p>
                 <p className="text-white text-sm mb-2">Embedded Systems, Full Stack</p>
-                <p className="text-slate-300 text-sm mb-4">Engineering project that allows for real-time detection of air quality parameters with readings and notifications on a bluetooth web app</p>
+                <p className="text-slate-300 text-sm mb-4">Engineering project that allows for real-time detection of air quality parameters with readings and notifications on a bluetooth web app.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Python</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">JavaScript</span>
@@ -167,7 +200,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">April 2025</p>
                 <p className="text-white text-sm mb-2">ML, Backend</p>
-                <p className="text-slate-300 text-sm mb-4">Machine learning project classifying human motion using accelerometer data with a python desktop application real-time</p>
+                <p className="text-slate-300 text-sm mb-4">Machine learning project classifying human motion using accelerometer data with a python desktop application real-time.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Python</span>
                   <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">scikit-learn</span>
@@ -185,7 +218,7 @@ export default function Sections() {
                 </h3>
                 <p className="text-slate-400 text-sm mb-1">June 2024</p>
                 <p className="text-white text-sm mb-2">Frontend</p>
-                <p className="text-slate-300 text-sm mb-4">New website for inQUbate, a student-run, startup incubator club of Queen&apos;s University</p>
+                <p className="text-slate-300 text-sm mb-4">New website for inQUbate, a student-run, startup incubator club of Queen&apos;s University.</p>
                 <div className="flex space-x-2">
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">JavaScript</span>
                   <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">CSS</span>
