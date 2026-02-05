@@ -30,19 +30,17 @@ export default function Sections() {
             <div className="border-l-4 border-accent pl-6">
               <div className="flex items-center mb-2">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 border border-blue-500 overflow-hidden">
-                  <Image src="/images/qsc.jpg" alt="QSC" width={48} height={48} className="w-full h-full object-cover rounded" />
+                  <Image src="/images/tribe.jpeg" alt="Tribe" width={48} height={48} className="w-full h-full object-cover rounded" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-blue-400">Technical Consultant</h3>
-                  <p className="text-slate-300"><a href="https://www.queensstartupconsulting.com/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Startup Consulting</a></p>
+                  <h3 className="text-xl font-semibold text-blue-400">Software Developer, UI/UX Designer</h3>
+                  <p className="text-slate-300"><a href="https://wetribe.io/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Tribe</a></p>
                 </div>
               </div>
-              <p className="text-white text-sm mb-2">March 2025 — Present</p>
-              <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges</p>
-              <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to source secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
-              <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making on 10,000+ companies</p>
+              <p className="text-white text-sm mb-2">January 2026 — Present</p>
+              <p className="text-slate-300">• Contributing to mobile app of Tribe, an event discovery and community engagement platform that enables users to find and attend local entertainment and social events, while providing event organizers with tools to promote, manage, and grow their audiences.</p>
             </div>
-            
+
             <div className="border-l-4 border-accent pl-6">
               <div className="flex items-center mb-2">
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 border border-blue-500 overflow-hidden">
@@ -56,6 +54,22 @@ export default function Sections() {
               <p className="text-white text-sm mb-2">March 2025 — Present</p>
               <p className="text-slate-300">• Conducting market research and designing user-interface prototypes for bons.ai, an AI-integrated language learning app</p>
               <p className="text-slate-300">•	Utilizing LLMs to create personalized and customizable learning strategies and lessons, immersive real-world applications, real-time conversational practice, and dynamic content generation based on past lesson results</p>
+            </div>
+            
+            <div className="border-l-4 border-accent pl-6">
+              <div className="flex items-center mb-2">
+                <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 border border-blue-500 overflow-hidden">
+                  <Image src="/images/qsc.jpg" alt="QSC" width={48} height={48} className="w-full h-full object-cover rounded" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-blue-400">Technical Consultant</h3>
+                  <p className="text-slate-300"><a href="https://www.queensstartupconsulting.com/" target="_blank" className="text-slate-300 hover:underline transition-colors duration-200">Queen&apos;s Startup Consulting</a></p>
+                </div>
+              </div>
+              <p className="text-white text-sm mb-2">March 2025 — Present</p>
+              <p className="text-slate-300">• Collaborating with high-growth startups to design and implement technical solutions tailored to their unique business challenges</p>
+              <p className="text-slate-300">•	Built scalable web-scraping APIs for a Series A b2c startup, to source secondhand clothing prices from e-commerce platforms based on product condition and brand</p>
+              <p className="text-slate-300">•	Currently designing a data automation pipeline to process and enrich third-party data for supply chain client acquisitions, leveraging automation to deliver insight for M&A decision-making on 10,000+ companies</p>
             </div>
             
             <div className="border-l-4 border-accent pl-6">
